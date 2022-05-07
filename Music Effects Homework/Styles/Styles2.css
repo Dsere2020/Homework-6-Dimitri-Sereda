@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    position:sticky;
+    top:0;
+    display: flex;
+    background-color: #000000;
+   
+}
+h1{
+    margin-left: -999px;
+}
+
+.logo{
+    display: block;
+    height: 70px;
+    width: 70px;
+    margin-top: 14px;
+    margin-left: 102px;
+}
+.logoimg{
+    height: 100%;
+    width:100%;
+}
+.headerlinenav{
+    margin-top: 40px;
+    margin-left: 300px  ;
+}
+.nav-list{
+    display: flex;
+    gap:2rem;
+}
+li:hover{
+    text-decoration: underline;
+}
+
+a{
+    color: #FFFFFF;
+    font-size: 18px; 
+    
+}
+.FBIG{
+    float: right;
+    position:fixed;
+    top: 200px;
+    right: 0;
+    height:100px;
+    width: 50px;
+}
+.fb{
+    height: 50px;
+    width: 50px;
+    background-image: url(../masalebi/fb.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.fb:hover{
+    background-image: url(../masalebi/facebook.png);
+}
+/*.fb img{
+    height: 100%;
+    width: 100%;
+}*/
+.ig{
+    height: 50px;
+    width:50px;
+    background-image: url(../masalebi/instagram.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.ig:hover{
+    background-image: url(../masalebi/instagram\ color.png);
+}
+/*.ig img{
+    height: 100%;
+    width: 100%;
+}*/
+.backgroundcolor{
+    background-color: #FFFFFF;
+}
+.song-list1{
+    height: 361px;
+    width: 280px;
+    margin-top: 50px;
+    margin-left: 100px;
+    
+}
+.song-list1:hover{
+    background-color: rgb(194, 191, 191);
+}
+.song-list1 p{
+    font-size: 18px;
+   
+}
+.starter{
+    margin-top:50px;
+}
+.starter2{
+    margin-top: 50px;
+}
+.songH{
+    font-size: 24px;
+}
+
+.song-list2{
+    height: 361px;
+    width: 280px;
+    margin-top: 50px;
+    margin-left: 100px;   
+}
+.song-list2:hover{
+    background-color: rgb(194, 191, 191);
+
+}
+.song-list2 p{
+    font-size: 18px;
+}
+
+.songlist{
+    display: flex;
+    justify-content: left;
+    gap: 160px;
+}
+/*44px total gap of 4 Sound*/
+.sound{
+    margin: 0 auto;
+    display: flex;
+    gap:11px;
+    margin-bottom: 106px;
+    justify-content: center;
+    height: 65px;
+    width: 304px;
+}
+.sound div{
+    height: 100%;
+    width: 65px;
+}
+.sound div img{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.XYZ{
+    
+    display: flex;
+    justify-content: center;
+    gap: 44px;
+}
+
+.playlistX{
+    gap: 44px;
+    height: 361px;
+    width: 280px;
+}
+.playlistX:hover{
+    background-color: rgb(194, 191, 191);
+
+}
+.starterX{
+    margin-top: 50px;
+    
+}
+.playlistX h2{
+    font-size: 24px;
+}
+.playlistX p{
+    font-size:18px ;
+}
+
+
+.sound1{
+    margin: 0 auto;
+    display: flex;
+    gap:11px;
+    margin-top: 138px;
+    justify-content: center;
+    height: 65px;
+    width: 304px;
+}
+.sound1 div{
+    height: 100%;
+    width: 65px;
+}
+.sound1 div img{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.Thanks{
+    position: sticky;
+    bottom: 0;
+    z-index: -1;
+    margin-top: 107px;
+    display: flex;
+    justify-content: center;
+    margin-bottom:144px;
+}
+.Thanks h3{
+    font-size: 36px;
+    color: #000000;
+}
+footer{
+    height: 354px;
+    width: 100%;
+    background-color: #000000;
+}
+
+.footerlogoH{
+    margin-left: 999px;
+
+}
+.footerlogo{
+    height: 150px ;
+    width: 150px ;
+    margin: 0 auto;
+}
+.footerlogoimg{
+    height: 100%;
+    width: 100%;
+}
+
+.footernav{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.footerul li{
+    padding-top: 10px;
+    text-align: center;
+}
+.footerli{
+    color: #FFFFFF;
+}

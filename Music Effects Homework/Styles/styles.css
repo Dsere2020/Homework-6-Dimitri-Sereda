@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+
+}
+header{
+    height: 100px;
+    width: 100%;
+    position:sticky;
+    display: flex;
+    background-color: #000000;
+   
+}
+h1{
+    margin-left: -999px;
+}
+
+.logo{
+    display: block;
+    height: 70px;
+    width: 70px;
+    margin-top: 14px;
+    margin-left: 102px;
+}
+.logoimg{
+    height: 100%;
+    width:100%;
+}
+.headerlinenav{
+    margin-top: 40px;
+    margin-left: 300px  ;
+}
+.nav-list{
+    display: flex;
+    gap:2rem;
+}
+li:hover{
+    text-decoration: underline;
+}
+
+a{
+    color: #FFFFFF;
+    font-size: 18px; 
+    
+}
+.FBIG{
+    float: right;
+    position:fixed;
+    top: 200px;
+    right: 0;
+    height:100px;
+    width: 50px;
+}
+.fb{
+    height: 50px;
+    width: 50px;
+    background-image: url(../masalebi/fb.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.fb:hover{
+    background-image: url(../masalebi/facebook.png);
+}
+/*.fb img{
+    height: 100%;
+    width: 100%;
+}*/
+.ig{
+    height: 50px;
+    width:50px;
+    background-image: url(../masalebi/instagram.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.ig:hover{
+    background-image: url(../masalebi/instagram\ color.png);
+}
+/*.ig img{
+    height: 100%;
+    width: 100%;
+}*/
+
+.today{
+    width: 1,176px;
+    margin-left: 109px;
+    margin-right: 109px;
+    margin-top:54px;
+    
+}
+
+.topp{
+    font-size: 24px;
+}
+
+
+
+.container{
+    margin-left: 109px;
+    margin-right: 155px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    margin-bottom: 100px ;
+    margin-top: 50px;
+}
+
+
+.square1{
+    height:245px ;
+    width: 300px;
+    border: solid black;  
+       
+}
+
+
+.squareimg1{
+    height: 50px;
+    width: 50px;
+    margin-left: 245px;
+    margin-top: -2.60px; 
+    
+}
+
+.squareimg1:hover img.img1{
+    opacity: 0;
+}
+
+.squareimg1:hover{ 
+    background-image: url(../masalebi/love-message.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.img1{
+    height: 100%;
+    width:100%
+
+}
+
+.squareimg2{
+    display: flex;
+    justify-content: center;
+    height:65px ;
+    width: 100%;
+    margin-top: 12px;
+}
+
+.img2{
+    height: 65px;
+    width:65px; 
+    margin:3px;
+    
+
+}
+.square2{
+    height:245px ;
+    width: 300px;
+    border: solid black;
+}
+.squareimg11{
+    height: 50px;
+    width: 50px;
+    margin-left: 245px;
+    margin-top: -2.60px;
+}
+.squareimg11:hover{ 
+    background-image: url(../masalebi/love-message.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.squareimg11:hover img:hover{
+    opacity: 0;
+}
+.img11{
+    height: 100%;
+    width:100%;
+
+}
+.square3{
+    height:245px ;
+    width: 300px;
+    border: solid black;
+      
+}
+.squareimg111{
+    height: 50px;
+    width: 50px;
+    margin-left: 245px;
+    margin-top: -2.60px;
+}
+.squareimg111:hover{ 
+    background-image: url(../masalebi/love-message.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.squareimg111:hover img:hover{
+    opacity: 0;
+}
+.img111{
+    height: 100%;
+    width:100%;
+
+}
+
+h2{
+    font-size: 18px;
+    margin-top: 27px;
+    margin-left: 11px;
+}
+
+.artists{
+    font-size: 14px;
+    margin-top: 18px;
+    margin-left: 11px;
+}
+.a{
+    display: block;
+    text-align: left;
+    margin-top: 61px;
+}
+.a:hover p{
+    text-decoration: underline;
+}
+.goto{
+    font-size: 14px;
+    color: #000000;
+}
+.latest{
+    margin-left: 111px;
+}
+.latestH{
+    font-size: 24px;
+}
+footer{
+    height: 354px;
+    width: 100%;
+    background-color: #000000;
+}
+
+.footerlogoH{
+    margin-left: 999px;
+
+}
+.footerlogo{
+    height: 150px ;
+    width: 150px ;
+    margin: 0 auto;
+}
+.footerlogoimg{
+    height: 100%;
+    width: 100%;
+}
+
+.footernav{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.footerul li{
+    padding-top: 10px;
+    text-align: center;
+}
+.footerli{
+    color: #FFFFFF;
+}
